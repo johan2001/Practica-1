@@ -17,20 +17,22 @@ int divisores(int);
 
 int main()
 {
-    cout << "*******************Poblemas Practica 1 ******************" << endl;
-    cout << "Ingrese 1 para cambio de una maquina expendedora" << endl;
-    cout << "Ingrese 2 para suma de tiempo a las horas" << endl;
-    cout << "Ingrese 3 para calcular euler" << endl;
-    cout << "Ingrese 4 para la serie de Fibonacci" << endl;
-    cout << "Ingrese 5 para suma de numeros elevado si mismo" << endl;
-    cout << "Ingrese 6 para minimo comun multiplo" << endl;
-    cout << "Ingrese 7 para suma de numeros primos" << endl;
-    cout << "Ingrese 8 para maximo palindrome" << endl;
-    cout << "Ingrese 9 para serie de Collazt" << endl;
-    cout << "Ingrese 10 para secuencia de numero triangulares" << endl;
+
 
     int opcion = 0;
-    cout << "Ingrese una opcion o presione 0 salir"<<endl;
+    cout << "***Poblemas Practica 1 *****" << endl;
+    cout << "* Ingrese 1, Ejercicio 2   *" << endl;
+    cout << "* Ingrese 2, Ejercicio 4   *" << endl;
+    cout << "* Ingrese 3, Ejercicio 6   *" << endl;
+    cout << "* Ingrese 4, Ejercicio 7   *" << endl;
+    cout << "* Ingrese 5, Ejercicio 9   *" << endl;
+    cout << "* Ingrese 6, Ejercicio 11  *" << endl;
+    cout << "* Ingrese 7, Ejercicio 13  *" << endl;
+    cout << "* Ingrese 8, Ejercicio 14  *" << endl;
+    cout << "* Ingrese 9, Ejercicio 16  *" << endl;
+    cout << "* Ingrese 10 Ejercicio 17  *" << endl;
+    cout << "****************************" << endl;
+    cout<< endl << "Ingrese una opcion o presione 0 salir: ";
     cin>>opcion;
     while (opcion !=0) {
 
@@ -64,8 +66,21 @@ int main()
         else if (opcion==10){
             numeros_triaguales();
         }
-        cout << "Ingrese una opcion o presione 0 salir"<<endl;
-        cin>>opcion;
+        cout << "***Poblemas Practica 1 *****" << endl;
+        cout << "* Ingrese 1, Ejercicio 2   *" << endl;
+        cout << "* Ingrese 2, Ejercicio 4   *" << endl;
+        cout << "* Ingrese 3, Ejercicio 6   *" << endl;
+        cout << "* Ingrese 4, Ejercicio 7   *" << endl;
+        cout << "* Ingrese 5, Ejercicio 9   *" << endl;
+        cout << "* Ingrese 6, Ejercicio 11  *" << endl;
+        cout << "* Ingrese 7, Ejercicio 13  *" << endl;
+        cout << "* Ingrese 8, Ejercicio 14  *" << endl;
+        cout << "* Ingrese 9, Ejercicio 16  *" << endl;
+        cout << "* Ingrese 10 Ejercicio 17  *" << endl;
+        cout << "****************************" << endl;
+
+        cout << endl << "Ingrese una opcion o presione 0 salir: ";
+        cin >> opcion;
     }
     return 0;
 }
@@ -106,7 +121,7 @@ void cambio_de_maquina_expendedora(){
 
 void suma_de_horas(){
 
-    unsigned int num1 ,num2, hora,minutos,hora2,minutos2 ;
+    unsigned int num1 ,num2, hora,minutos,hora2,minutos2,horasfinales,minutosfinales ;
     cout << "Igrese una Hora : " << endl; cin >> num1;
     cout << "Igrese la Hora a sumar : " << endl ; cin >> num2 ;
     if ((num1 % 100 >= 1 & num1 %100 < 60)&((num1 /100) >=1 & (num1 /100) <=24))
@@ -115,7 +130,8 @@ void suma_de_horas(){
         minutos=num1 % 100;
     }
     else{cout<<"invalido:"<< num1 <<" es un tiempo invalido" << endl;
-        return ;}
+        return ;
+    }
 
     if ((num2 % 100 >= 1 & num2%100 < 60) & ((num2 /100) >=1 & (num2 /100) <=24))
     {
@@ -123,17 +139,19 @@ void suma_de_horas(){
         minutos2 =num2 % 100;
     }
     else {cout<<"invalido:"<< num2 <<" es un tiempo invalido" << endl;
-        return;}
+        return;
+    }
+    horasfinales= hora+hora2;
+    minutosfinales=minutos+minutos2;
 
-    if(hora+hora2 <= 24 & minutos+minutos2 < 60)
-    {
-        cout <<"la hora es "<< hora+hora2 <<":"<< minutos+minutos2 << endl;
+    if (minutosfinales > 60){
+        horasfinales += 1;
+        minutosfinales -= 60 ;
     }
-    else{
-        if (hora+hora2 <= 23 & minutos+minutos2 >= 60){
-            cout<<"la hora es "<< (hora+hora2)+ 1 <<":"<< (minutos + minutos2)- 60 << endl;
-        }
+    if (horasfinales > 24){
+        horasfinales -=24;
     }
+    cout << "la hora es "<< horasfinales << ":" << minutos << endl;
 }
 
 void euler(){
@@ -226,7 +244,7 @@ void numeros_primos(){
 
 void maximo_palindrime(){
 
-    int maxpalin=0,num1=143,num2=777, numfinal1 = 0 , numfinal2=0;
+    int maxpalin=0,num1=999,num2=999, numfinal1 = 0 , numfinal2=0;
 
     for (;num1 > 0;num1--)
     {
@@ -345,9 +363,8 @@ bool palindromo ( int num){
 int divisores(int a)
 {
     int div = 0;
-    for (int cont=1;cont <= a;cont++)
-    {
-     if(a % cont==0 )div ++;
+    for (int cont=1;cont <= a;cont++){
+        if(a % cont==0 )div ++;
     }
     return div;
 }
