@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Musica/pacman-dies.mp3</file>
+        <file>Musica/pacman-eating-ghost.mp3</file>
+        <file>Musica/pacman-intermission.mp3</file>
+        <file>Musica/pacman-siren.mp3</file>
+        <file>Musica/pacman_chomp.wav</file>
+        <file>Musica/mix_09s (audio-joiner.com).mp3</file>
+        <file>Musica/pacman-waka-waka.mp3</file>
+    </qresource>
+</RCC>

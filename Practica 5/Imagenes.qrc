@@ -1,0 +1,40 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Fotos/2353fa85-8348-4fa8-9000-236340f657c9_6f082d64-0b98-4f83-bd25-35bbab51e7ef_ss_9733819cc60d74f45be087ec3217ec538b894050.jpg</file>
+        <file>Fotos/fondo2.jpg</file>
+        <file>Fotos/imagen-negra-3.jpg</file>
+        <file>Fotos/Fantasmas/Fantasma-azul-abajo.png</file>
+        <file>Fotos/Fantasmas/Fantasma-azul-arriba.png</file>
+        <file>Fotos/Fantasmas/Fantasma-azul-derecha.png</file>
+        <file>Fotos/Fantasmas/Fantasma-azul-izquierda.png</file>
+        <file>Fotos/Fantasmas/Fantasma-miedo.png</file>
+        <file>Fotos/Fantasmas/Fantasma-rojo-abajo.png</file>
+        <file>Fotos/Fantasmas/Fantasma-rojo-arriba.png</file>
+        <file>Fotos/Fantasmas/Fantasma-rojo-derecha.png</file>
+        <file>Fotos/Fantasmas/Fantasma-rojo-izquierda.png</file>
+        <file>Fotos/Pacman/pacman.png</file>
+        <file>Fotos/Pacman/pacman-abajo.png</file>
+        <file>Fotos/Pacman/pacman-abajo-2.png</file>
+        <file>Fotos/Pacman/pacman-arriba.png</file>
+        <file>Fotos/Pacman/pacman-arriba-2.png</file>
+        <file>Fotos/Pacman/pacman-derecha.png</file>
+        <file>Fotos/Pacman/pacman-derecha-2.png</file>
+        <file>Fotos/Pacman/pacman-izquierda.png</file>
+        <file>Fotos/Pacman/pacman-izquierda-2.png</file>
+        <file>Fotos/Fantasmas/Fantasma-naranja-abajo.png</file>
+        <file>Fotos/Fantasmas/Fantasma-naranja-arriba.png</file>
+        <file>Fotos/Fantasmas/Fantasma-naranja-derecha.png</file>
+        <file>Fotos/Fantasmas/Fantasma-naranja-izquierda.png</file>
+        <file>Fotos/Fantasmas/Fantasma-rosado-abajo.png</file>
+        <file>Fotos/Fantasmas/Fantasma-rosado-arriba.png</file>
+        <file>Fotos/Fantasmas/Fantasma-rosado-derecha.png</file>
+        <file>Fotos/Fantasmas/Fantasma-rosado-izquierda.png</file>
+        <file>Fotos/descarga.jpg</file>
+        <file>Fotos/Wall5.png</file>
+        <file>Fotos/OBJETOS/punto 2.png</file>
+        <file>Fotos/OBJETOS/punto 3.png</file>
+        <file>Fotos/OBJETOS/punto.png</file>
+        <file>Fotos/gamerover.jpg</file>
+        <file>Fotos/Ganar.gif</file>
+    </qresource>
+</RCC>
